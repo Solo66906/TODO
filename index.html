@@ -4,33 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ToDo</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
 </head>
 <body>
-  <header class="header">
-    <h1>TODO list</h1>
-  </header>
-  <div class="section">
-    <input 
-    type="text"
-    placeholder="Введите задачу"
-    id="Text"
-    />
-    <button id="createToDo">Добавить</button>
-    <ul id="">
-      <li>
-        <span>Название</span>
-        <span>
-          
-        </span>
-      </li>
+  <h1>Чек-Листы</h1>
+  <nav class="nav">
+    <ul>
+      <li>Все задачи</li>
+      <li>Активные</li>
+      <li>Выполненные</li>
     </ul>
-  </div>
-  <footer class="footer">
-    <div class="footer_content">
-      <a href="">Create by Kirill Stashkin</a>
-    </div>
-  </footer>
+    <button>+ Добавить чек-лист</button>
+  </nav>
 </body>
 </html>
