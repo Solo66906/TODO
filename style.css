@@ -8,4 +8,13 @@ body {
 .executed {
   color: #5A7FFF;
 }
-
+#checkList {
+  display: flex;
+  flex-direction: column;
+}
+span {
+  cursor: pointer;
+}
+.active {
+  text-decoration: line-through;
+}
