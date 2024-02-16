@@ -7,25 +7,23 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
   <script src="./script.js" defer></script>
 </head>
-<body>
-  <h1>Чек-Листы</h1>
-  <nav class="nav">
-    <ul>
-      <li>Все задачи</li>
-      <li>Активные</li>
-      <li>Выполненные</li>
+<body class="bg-dark text-light">
+  <div class="container w-50 pt-5">
+    <h1>Чек-лист</h1>
+    <input 
+    type="text"
+    class="form-control mb-2"
+    placeholder="Введите задачу"
+    id="title">
+    <button class="btn btn-outline-info w-100 mb-2" id="create">
+      Добавить
+    </button>
+    <ul class="list-group list-group-flush" id="list">
     </ul>
-    <button id="createToDoList">+ Добавить чек-лист</button>
-  </nav>
-  <div id="content">
-    <div id="checkList">
-      <h2>Чек-лист</h2>
-      <ul id="list">
-      </ul>
-    </div>
   </div>
 </body>
 </html>

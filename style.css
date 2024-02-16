@@ -1,19 +1,5 @@
 body {
   font-family: "Inter", sans-serif;
-  color: #000;
-}
-.create {
-  color: #5F9CF8;
-}
-.executed {
-  color: #5A7FFF;
-}
-#checkList {
-  display: flex;
-  flex-direction: column;
-}
-span {
-  cursor: pointer;
 }
 .active {
   text-decoration: line-through;
